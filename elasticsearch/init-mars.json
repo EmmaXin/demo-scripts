@@ -1,0 +1,40 @@
+{
+    "mappings": {
+        "test": {
+            "properties": {
+                "facility": { "type": "integer" },
+                "severity": { "type": "integer" },
+                "tag": { "type": "keyword" },
+                "time": { "type": "date" },
+                "localeDateTime": { "type": "text" },
+                "hostname": { "type": "keyword" },
+                "address": { "type": "ip" },
+                "message": { "type": "text" }
+            }
+        },
+        "fabric": {
+            "properties": {
+                "facility": { "type": "integer" },
+                "severity": { "type": "integer" },
+                "tag": { "type": "keyword" },
+                "time": { "type": "date" },
+                "localeDateTime": { "type": "text" },
+                "hostname": { "type": "keyword" },
+                "address": { "type": "ip" },
+                "message": { "type": "text" }
+            }
+        },
+        "system": {
+            "properties": {
+                "facility": { "type": "integer" },
+                "severity": { "type": "integer" },
+                "tag": { "type": "keyword" },
+                "time": { "type": "date" },
+                "localeDateTime": { "type": "text" },
+                "hostname": { "type": "keyword" },
+                "address": { "type": "ip" },
+                "message": { "type": "text" }
+            }
+        }
+    }
+}
